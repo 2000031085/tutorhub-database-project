@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Office lock / temp files
+.~lock.*#
+~$*
+*.tmp
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Database connection secrets
+.env
+db_credentials.ini
+
+# Build outputs we don't want in git
+*.zip
+
+# Documents — keep the report, deck, and roadmap out of the code repo
+*.docx
+*.pptx
+*.pdf
+README.txt
